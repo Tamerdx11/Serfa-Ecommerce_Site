@@ -1,0 +1,64 @@
+.contactus_screen {
+    z-index: 0;
+    min-height: 530px;
+    margin: 15px 0 0 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactus_screen .image_contactus_screen { 
+    width: 40%;
+}
+
+.contactus_screen .image_contactus_screen img {
+    border-radius: 50%;
+    filter: grayscale(100%) brightness(80%);
+}
+
+.contactus_screen .text_contactus_screen {
+    width: 50%;
+}
+
+.contactus_screen .text_contactus_screen .div1 {
+    font-size: 40px;
+    color: white;
+    margin: 5px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.contactus_screen .text_contactus_screen .div2 {
+    margin: 8px;
+}
+
+.contactus_screen .text_contactus_screen .div2 .span1 b {
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.contactus_screen .text_contactus_screen .div2 .span2 {
+    color: #ff3c78;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.contactus_screen .text_contactus_screen .div3 {
+    margin: 8px;
+    color: rgb(211, 206, 206);
+    font-size: 18px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.contactus_screen .text_contactus_screen .div3 .span3 {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contactus_screen .text_contactus_screen .div3 .span3:hover {
+    color: #ff3c78;
+}
+

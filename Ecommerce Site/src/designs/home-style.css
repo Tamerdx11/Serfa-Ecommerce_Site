@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    z-index: 1;
+    letter-spacing: 1.6px;
+}
+/********** home screen(product)**********/
+.home_screen {
+    z-index: 0;
+    min-height: 403px;
+    position: relative;
+}
+
+.d-block {
+    padding-top: 10px;
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+h3, p {
+    background-color: rgb(19 21 22 / 60%);
+    width: fit-content;
+    border-radius: 5%;
+}
+
+.carousel {
+    z-index: 0;
+    height: 300px;
+    width: 100%;
+}
+
+.price {
+    width: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 20px;
+    font-size: 20px;
+}
+
+.price span {
+    color: crimson;
+}
+
+.discount {
+    width: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 20px;
+    margin: 5px;
+    font-size: 10px;
+    color: greenyellow;
+}
+
+.discount span {
+    color: gold; 
+}
+
+.products {
+    margin-top:20px ;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.product {
+    z-index: 0;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background-color: #181a1b;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 200px;
+    margin: 15px 10px 5px 10px;
+    border-radius: 10px 50px;
+    box-shadow: 0px 0.1px 5px rgb(66, 63, 63);
+    transition: 0.1s;
+}
+
+.product:hover {
+    box-shadow: 0px 0.1px 15px rgb(66, 63, 63);
+}
+
+.image_container, .title_container, .price_container {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_container {
+    width: 200px;
+    height: 130px;
+}
+
+.image_container img {
+    max-width: 200px;
+    height: 130px;
+}
+.price_container {
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title_container {
+    text-align: center;
+    height: 18px;
+    padding: 1px;
+    text-shadow: 0.1px 0.1px 2px black;
+}
+
+.title_container h6 {
+    line-height: 1;
+    font-size: 15px;
+    max-width: 200px;
+}
+
+.products .product img {
+    height: 100px;
+    border-radius: 32px 13px;
+    transition: 0.3s;
+}
+
+.products .product img:hover{
+    transform: scale(1.1);
+}
+
+/******** categories ********/
+
+.category_selected {
+    color: white;
+    text-shadow: 0.1px 0.1px 2px black;
+    font-size: 30px;
+    margin: 5px;
+}
